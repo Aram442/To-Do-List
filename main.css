@@ -9,7 +9,7 @@
 }
 
 
-* {
+* {  
     box-sizing: border-box;
     margin: 0;
     font-family: 'fira sans' , sans-serif;
@@ -42,6 +42,7 @@ header h1{
 
 new-task-form {
     display: flex;
+    
 }
 
 
@@ -64,6 +65,7 @@ border: none;
 
 #new-task-input::placeholder {
     color: var(--gray);
+    margin: 0 -0.5rem;
 }
 
 
@@ -71,7 +73,7 @@ border: none;
     color: var(--pink);
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    background-image: linear-gradient(to right , var(--pink), var(--purple));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -80,7 +82,7 @@ border: none;
 
 
 #new-task-submit:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 
